@@ -4,7 +4,7 @@ Python script to convert any file to images
 
 # Usage
 
-To convert a file to an image use the FromFileToImage.py script.
+To convert a file to an image use the <b>FromFileToImage.py</b> script.<br>
 To reconvert the output image in a file use the FromImageToFile.py script.
 
 ⚠️WARNING⚠️ <br>
