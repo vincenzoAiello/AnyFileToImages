@@ -25,6 +25,7 @@ countJ=0
 with open(pathFile, "rb") as f:
     bytes_read = f.read()
     #con tqdm creo una progress bar
+    #create a progress bar with tqdm
     for b in tqdm(bytes_read):
         bits = format(b,'08b')
         for bit in bits:
