@@ -1,0 +1,7 @@
+L'ordinamento dei punti per minimizzare i salti della macchina da ricamo dipende dalla geometria della forma che si desidera ricamare. Una possibile soluzione è quella di partire dalla forma più esterna e procedere con la ricamo delle forme interne, in modo da minimizzare i salti della macchina.
+
+In generale, è possibile utilizzare algoritmi di ordinamento dei punti basati sulla distanza, in modo da minimizzare i salti della macchina da ricamo. Ad esempio, un possibile approccio è quello di calcolare la distanza tra il punto corrente e tutti i punti rimanenti, e scegliere il punto più vicino come successivo punto di ricamo. Questo processo può essere ripetuto per tutti i punti del contorno, fino a completare il ricamo.
+
+Un altro approccio potrebbe essere quello di utilizzare tecniche di clustering, in modo da raggruppare i punti vicini in cluster e ordinare i cluster in base alla loro posizione e dimensione. Questo permetterebbe di ridurre il numero di salti della macchina da ricamo, evitando di saltare da un cluster all'altro.
+
+In generale, l'ordinamento dei punti per minimizzare i salti della macchina da ricamo è un problema complesso che richiede un'attenta analisi della geometria della forma da ricamare e dell'algoritmo di ricamo utilizzato dalla macchina.
