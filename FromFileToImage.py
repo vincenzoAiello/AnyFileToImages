@@ -16,7 +16,7 @@ totBytesFile= os.stat(pathFile).st_size
 # prepare the image with width and length equal to the fourth root of the file size + 1
 width=round(math.sqrt(totBytesFile * 8)) +1
 height=round(math.sqrt(totBytesFile * 8)) +1
-img  = Image.new( mode = "L", size = (width, height) )
+img  = Image.new( mode = "L", size = (width, height), color=170)
 
 ##leggo i bytes del file e imposto i pixel dell'immagine a bianco per i bit a 1 e a nero per i bit a 0
 #read the bytes of the file and set the pixels to white  for the bits at 1 and black for the bits at 0
@@ -44,6 +44,8 @@ with open(pathFile, "rb") as f:
 ##salvo l'immagine
 #save the image
 img.save(pathOutput)
+
+
 
 
 
