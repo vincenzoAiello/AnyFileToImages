@@ -15,7 +15,6 @@ saved_img= Image.open(pathFile)
 pixelsList = list(saved_img.getdata())
 currentByte=""
 countBytes = 0
-
 with open(pathOutput,"wb") as out :
     for pixel in tqdm(pixelsList):
         if(pixel==255):
